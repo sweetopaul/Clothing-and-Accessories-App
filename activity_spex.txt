@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".spex"
+    android:background="@color/material_dynamic_neutral60">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textView16"
+            android:queryHint="Search"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spex8"
+            android:layout_centerHorizontal="true"
+            android:text="Back" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView27"
+            android:layout_alignLeft="@id/spex8"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="55dp"
+            android:text="Prada VPS 07L  unisex super-power glasses             Rs18,750"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView26"
+            android:layout_alignLeft="@id/spex7"
+            android:layout_marginLeft="228dp"
+            android:layout_marginTop="56dp"
+            android:text="Emporio Armani Ea 1131                              Rs 12000"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/spex7"
+            android:layout_marginTop="-18dp"
+            android:src="@drawable/spex8"
+            android:id="@+id/spex8"
+            />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spex4"
+            android:layout_alignLeft="@id/spex5"
+            android:layout_marginLeft="226dp"
+            android:layout_marginTop="4dp"
+            android:text="Ray-ban rx-ablcode 5432  Rs21,699"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/spex5"
+            android:layout_marginTop="-43dp"
+            android:src="@drawable/spex6"
+            android:id="@+id/spex7"/>
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView24"
+            android:layout_alignLeft="@id/spex4"
+            android:layout_marginLeft="219dp"
+            android:layout_marginTop="17dp"
+            android:text="Vincent chase polarized unisex Glasses Code2312     Rs2000"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView23"
+            android:layout_alignLeft="@id/spex3"
+            android:layout_marginLeft="217dp"
+            android:layout_marginTop="61dp"
+            android:text="John Jacob                                3d premiium Sunglasses  code2341             Rs3500"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/spex3"
+            android:layout_marginTop="17dp"
+            android:src="@drawable/spex4"
+            android:id="@+id/spex4"/>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spex"
+            android:layout_alignLeft="@id/spex"
+            android:layout_marginLeft="218dp"
+            android:layout_marginTop="-189dp"
+            android:text="Muzz:                           Pure Tittanium unisex glass  code:5410                    Rs1800"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/spex5"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/spex4"
+            android:layout_marginTop="-20dp"
+            android:src="@drawable/spex5" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/spex"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/spex2"
+            android:id="@+id/spex3"/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available spex"
+            android:textSize="34sp"
+            android:textStyle="italic"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/textView16"
+            android:layout_marginTop="42dp"
+            android:src="@drawable/spex1"
+            android:id="@+id/spex"/>
+    </RelativeLayout>
+</ScrollView>

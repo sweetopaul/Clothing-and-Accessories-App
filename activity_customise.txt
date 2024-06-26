@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customise"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/material_dynamic_neutral60">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Customise"
+      android:textSize="34sp"
+      android:textStyle="italic"
+      android:textColor="@color/white"/>
+
+  <EditText
+      android:id="@+id/text1"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:hint="Name"
+      android:textColorHint="@color/black"/>
+
+  <EditText
+      android:id="@+id/product"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:hint="enter product code"
+      android:textColorHint="@color/black"/>
+  <EditText
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:hint="enter color"
+      android:background="@color/white"
+      android:textColorHint="@color/black"/>
+
+  <EditText
+      android:id="@+id/mail"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:hint="enter size"
+      android:textColorHint="@color/black"/>
+
+  <EditText
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:hint="enter gender"
+      android:textColorHint="@color/black" />
+
+  <EditText
+      android:id="@+id/text8"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:hint="enter mail"
+      android:textColorHint="@color/black"/>
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="customise" />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/btton1"
+      android:text="share"/>
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+package com.example.anand;
+
+public class Url {
+    public static Url pass(String s) {
+        return null;
+    }
+}
+
+

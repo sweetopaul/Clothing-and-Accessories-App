@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/material_dynamic_neutral60">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="-93dp"
+        android:text="Follow us on:"
+        android:textColor="#FEFEFE"
+        android:textSize="34sp"
+        android:textStyle="italic" />
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/hero"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="66dp"
+        android:src="@drawable/goal" />
+
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/hero"
+        android:layout_alignRight="@id/go"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginRight="-149dp"
+        android:layout_marginBottom="66dp"
+        android:src="@drawable/download2" />
+
+    <ImageView
+        android:id="@+id/insta"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/hero"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="22dp"
+
+        android:layout_marginTop="408dp"
+        android:layout_marginBottom="66dp"
+        android:src="@drawable/download" />
+
+    <ImageView
+        android:id="@+id/go"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/hero"
+        android:layout_alignLeft="@id/hero"
+
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="407dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginBottom="66dp"
+        android:rotationX="-9"
+        android:src="@drawable/download1" />
+
+    <Button
+        android:id="@+id/buttons"
+        android:layout_width="206dp"
+        android:layout_height="47dp"
+        android:layout_alignBottom="@+id/hero"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-352dp"
+        android:background="@color/white"
+        android:text="Click" />
+
+    <TextView
+        android:id="@+id/hero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Elegance"
+        android:textAlignment="viewStart"
+        android:textColor="#FEFEFE"
+        android:textSize="60sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

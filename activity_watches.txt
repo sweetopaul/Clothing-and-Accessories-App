@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".watches"
+    android:background="@color/material_dynamic_neutral60">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textView10"
+            android:layout_marginTop="17dp"
+            android:queryHint="Search" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fastrack"
+            android:layout_centerHorizontal="true"
+            android:text="Back" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView14"
+            android:layout_alignLeft="@id/fastrack"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="60dp"
+            android:text="Fastrack:              Phantom Super HD display  code:2313              Rs:4000"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/fastrack"
+            android:layout_width="120dp"
+            android:layout_height="250dp"
+            android:layout_below="@id/latest"
+            android:layout_marginTop="-28dp"
+            android:src="@drawable/fastrack" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView13"
+            android:layout_alignLeft="@id/latest"
+            android:layout_marginLeft="218dp"
+            android:layout_marginTop="105dp"
+            android:text="Rolex:                         Datejust   code:2345          Rs:499999"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView12"
+            android:layout_alignLeft="@id/rolex"
+            android:layout_marginLeft="218dp"
+            android:layout_marginTop="143dp"
+            android:text="Rolex :                 Explorer for unisex  code:1232  Rs:669,049"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView11"
+            android:layout_alignLeft="@id/timex"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="123dp"
+            android:text="Timex:                  Analog silver dial code:5432          Rs:2400"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView10"
+            android:layout_alignLeft="@id/watch"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="95dp"
+            android:text=" Timex :                                         Mens analog code:010                 Rs:1400"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/rolex"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/timex"
+            android:layout_alignLeft="@id/timex"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/rolex2" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Latest Watches"
+            android:textSize="34sp"
+            android:textStyle="italic"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/timex"
+            android:layout_width="275dp"
+            android:layout_height="242dp"
+            android:layout_below="@id/watch"
+            android:layout_alignLeft="@id/watch"
+            android:layout_marginLeft="-39dp"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/timex" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/rolex"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/rolexnew"
+            android:id="@+id/latest"
+            android:layout_alignLeft="@id/rolex"/>
+
+        <ImageView
+            android:id="@+id/watch"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/textView10"
+            android:layout_alignLeft="@id/textView10"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/latest" />
+    </RelativeLayout>
+</ScrollView>

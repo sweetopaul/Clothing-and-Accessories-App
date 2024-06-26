@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shoes"
+    android:background="@color/material_dynamic_neutral60">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textView17"
+
+            android:layout_marginTop="-14dp"
+            android:queryHint="Search" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/puma"
+            android:layout_centerHorizontal="true"
+            android:text="Back" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView21"
+            android:layout_alignLeft="@id/puma"
+            android:layout_marginLeft="208dp"
+            android:layout_marginTop="65dp"
+            android:text="Puma:              Softfoam X-Ray Unisex  code:5010                        Rs: 5249"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView20"
+            android:layout_alignLeft="@id/adidas2"
+            android:layout_marginLeft="206dp"
+            android:layout_marginTop="27dp"
+            android:text="Adidas:                          Mens Web Boost          code:1010      Rs:8249"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/puma"
+            android:layout_below="@id/adidas2"
+            android:id="@+id/puma"/>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView19"
+            android:layout_alignLeft="@id/adidas"
+            android:layout_marginLeft="199dp"
+            android:layout_marginTop="27dp"
+            android:text="Adidas:           Climawarm running shoes code:006                       Rs 3699"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView18"
+            android:layout_alignLeft="@id/nikenew"
+            android:layout_marginLeft="196dp"
+            android:layout_marginTop="45dp"
+            android:text="Nike :             Downshifter 12  code:004                Rs: 2517"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView17"
+            android:layout_alignLeft="@id/nike"
+            android:layout_marginLeft="197dp"
+            android:layout_marginTop="45dp"
+            android:text="Nike:                              Air VaporMax  code:001                 Rs 13000"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/nike"
+            android:layout_marginTop="-31dp"
+            android:src="@drawable/nikenew"
+            android:id="@+id/nikenew"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/nikenew"
+            android:layout_marginTop="-27dp"
+            android:src="@drawable/adidas1"
+            android:id="@+id/adidas"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/nike"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="81dp"
+            android:text="Latest Shoes"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/adidas"
+            android:layout_marginTop="-24dp"
+            android:src="@drawable/adidas2"
+            android:id="@+id/adidas2"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/nike"
+            android:layout_below="@id/textView17"
+            android:id="@+id/nike"/>
+    </RelativeLayout>
+</ScrollView>
